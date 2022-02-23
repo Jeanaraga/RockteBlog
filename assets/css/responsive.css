@@ -1,0 +1,108 @@
+@media (max-width: 1050px) {
+    .container-home {
+        width: 45%;
+        height: 346px;
+    }
+    .container-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    .container-textos h2{
+        font-size: 30px;
+    }
+    .post-1 h2{
+        font-size: 30px;
+    }
+    .artigos h3{
+        font-size: initial;
+    }
+    .artigos p {
+        font-size: medium;
+    }
+}
+
+@media (max-width: 850px) {
+    .input-cabecalho{
+        display: none;
+    }
+    .container-textos h2 {
+        font-size: 24px;
+    }
+    .container-textos p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    header {
+        height: 700px;
+    }
+    .home{
+        flex-direction: column;
+    }
+    .container-home {
+        width: 100%;
+        height: 45%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px){
+    
+    .container-textos h2{
+        font-size: 20px;
+    }
+    .parte-1 {
+        flex-direction: column;
+    }
+    .post-1 {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .conteudo-lateral {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .artigos-lateral{
+        width: 45%;
+    }
+}
+
+@media (max-width: 400px){
+    .cabecalho a {
+        font-size: 18px;
+        margin-left: 10px;
+        padding-left: 5px;
+    }
+    .container-textos h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .paragrafo{
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .segunda-parte {
+        display: none;
+    }
+    .cabecalho a {
+        font-size: 14px;
+        margin-left: 10px;
+        padding-left: 5px;
+    }
+    .container-textos h2{
+        font-size: large;
+    }
+}
