@@ -9,5 +9,5 @@
 
 ## 📝 Descrição
 
-Esse projeto/site seria uma replicação de Blog de noticias
+Esse projeto/site seria uma replicação de Blog de noticia
 
